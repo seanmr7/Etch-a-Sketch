@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Etch-A-Sketch</title>
+  <meta charset="UTF-8"/>
+
+</head>
+<style>
+    .container{
+        display: grid;
+        grid-template-columns: repeat(16, 1fr);
+        grid-template-rows: repeat(16, 1fr);
+        height: 720px;
+        width: 720px;
+        justify-content: center;
+        background-color: white;
+        border: 3px solid black;
+    }
+
+    .new-div{
+        background-color: white;
+        font-size: 10px;
+        justify-self: center;
+        border: 1px solid black
+    }
+
+
+</style>
+
+<body>
+<div>
+    <div class = 'container'></div>
+</div>
+</body>
+
+<script src = 'etch-a-sketch.js'></script>
+
+</html>
